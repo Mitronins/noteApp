@@ -13,7 +13,7 @@ public class DbHandler {
 
     private static final String CON_STR = "jdbc:sqlite:./resources/notedb.sqlite";
 
-    // Объект, в котором будет храниться соединение с БД
+    //connection to DB
     private Connection connection;
 
     // Используем singleton
